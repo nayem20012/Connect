@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 const socketIo = require("./services/socker_service");
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const serverHomePage = require('./helper/serverHomePage')
 
 const app = express();
 dotenv.config();
@@ -30,6 +31,15 @@ app.use(cookieParser());
 
 
 app.use(mainRouter);
+
+
+
+
+
+// Testing API is alive
+app.get("/", (req, res) => {
+  res.send(serverHomePage(req));
+});
 
 app.use(notFoundRoute);
 app.use(globalRrrorHandler);
