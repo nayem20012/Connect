@@ -5,12 +5,6 @@
         "src": "app.js",
         "use": "@vercel/static"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/app.js"
-      }
     ]
   }
   
