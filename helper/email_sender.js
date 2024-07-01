@@ -4,7 +4,7 @@ const nodemailer = require("nodemailer");
 const helper = {};
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
+  host: "connect.xpart.top",
   port: 465,
   secure: true,
   auth: {

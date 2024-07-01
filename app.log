@@ -1,3 +1,5 @@
+2024-07-01T16:12:46.084Z ["error"] {"code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-1fac10d1fb1sm66404225ad.36 - gsmtp","responseCode":535,"command":"AUTH PLAIN"} (Error Path: /auth/sign-up)
+2024-07-01T16:12:46.064Z ["error"] {"code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-1fac10d1fb1sm66404225ad.36 - gsmtp","responseCode":535,"command":"AUTH PLAIN"} (Error Path: /auth/sign-up)
 2024-07-01T12:57:46.658Z ["error"] {} (Error Path: /)
 2024-07-01T12:57:26.566Z ["error"] {} (Error Path: /)
 2024-07-01T12:56:58.778Z ["error"] {} (Error Path: /)
